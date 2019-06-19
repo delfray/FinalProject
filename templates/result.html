@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<h2>{{ alarm }}</h2>
+<h4>Частотность слов</h4>
+<img src="{{url_for('static', filename='img/plot1.png')}}"/>
+<h4>Возраст комментаторов</h4>
+<img src="{{url_for('static', filename='img/plot2.png')}}"/>
+<h4>Города комментаторов</h4>
+<img src="{{url_for('static', filename='img/plot3.png')}}"/>
+<h4>Пол комментаторов</h4>
+<img src="{{url_for('static', filename='img/plot4.png')}}"/>
+</body>
+</html>
